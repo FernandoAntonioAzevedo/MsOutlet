@@ -323,3 +323,14 @@ ul {
 .app-logo img {
     width: 140px;
 }
+
+.rodape hr {
+    border: none;
+    height: 1px;
+    background: var(--cor-fonte);
+    margin: 20px 0;
+}
+
+.direitos {
+    text-align: center;
+}
