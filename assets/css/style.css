@@ -390,6 +390,24 @@ ul {
 }
 
 
+/* Estilos da página ver produto (detalhes)*/
+
+.ver-produto {
+    margin-top: 40px;
+}
+
+.ver-produto .col-2 img {
+    width: 100%;
+    padding: 0;
+}
+
+.ver-produto #produtoImg {
+    width: 600px;
+    height: 450px;
+}
+
+
+
 /* Menu celular 800px */
 
 @media only screen and (max-width:800px) {
