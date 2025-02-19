@@ -343,6 +343,53 @@ ul {
     display: none;
 }
 
+
+/* Início Estlizações Página de Produtos */
+
+.novoMenu nav ul li a {
+    color: var(--cor-btn-fonte);
+
+}
+
+.novoMenu {
+    box-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.linha2 {
+    margin: 100px auto 50px;
+    justify-content: space-between;
+}
+
+.linha2 select {
+    padding: 5px;
+    border: 1px solid var(--cor-padrao);
+}
+
+.linha2 select:focus {
+    outline: none;
+}
+
+.paginacao {
+   margin: 0 auto 80px; 
+}
+
+.paginacao span {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid var(--cor-padrao);
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.paginacao span:hover {
+    background: var(--cor-padrao);
+    color: var(--cor-fonte);
+}
+
+
 /* Menu celular 800px */
 
 @media only screen and (max-width:800px) {
@@ -370,7 +417,12 @@ ul {
     .menu-celular {
         display: block;
         cursor: pointer;
-    }    
+    }
+    
+    .novoMenu nav ul li a {
+        color: var(--cor-fonte);
+    
+    }
 }
 
 /* Menu Celular 600px */
