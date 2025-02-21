@@ -335,6 +335,17 @@ ul {
 
 .direitos {
     text-align: center;
+    
+}
+
+.direitos a {
+    text-decoration: none;
+    color: var(--cor-fonte);
+}
+
+.direitos a:hover {
+    cursor: pointer;
+    color: var(--cor-padrao);
 }
 
 .menu-celular {
@@ -467,6 +478,7 @@ ul {
     flex-basis: 24%;
     cursor: pointer;
 }
+
 
 
 /* Menu celular 800px */
