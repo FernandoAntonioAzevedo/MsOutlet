@@ -543,6 +543,14 @@ th:last-child {
     text-align: right;
 }
 
+
+/* Minha conta */
+
+.minha-conta {
+    padding: 50px;
+}
+
+
 /* Menu celular 800px */
 
 @media only screen and (max-width:800px) {
