@@ -715,4 +715,10 @@ th:last-child {
          display: none;
     }
 
+    .formulario {
+        margin-left: -30px;    
+    }
+
+    
+
 }
